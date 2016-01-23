@@ -316,7 +316,8 @@
 			height: $navbar-default-height;
 
 			@media screen and (min-width: $grid-float-breakpoint) {
-				height: $navbar-default-desktop-height;
+				height: auto;
+				padding-top: 20px;
 			}
 		}
 
